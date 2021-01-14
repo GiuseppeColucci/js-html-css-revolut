@@ -7,13 +7,15 @@
 .container{
     max-width: 1200px;
     margin: auto;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-around;
 }
 /* UTILITIS!!!!!!!!!!!!!!! */
 .container-flex{
     display: flex;
+}
+.active{
+    display: none;  
 }
 /* contenitore di sinistra */
 .container-right{
@@ -23,14 +25,23 @@
 }
 .container-left p{
     margin: 10px 10px;
-    display: flex;
-
+    
 }
 span{
     margin: 10px 10px;
 
 }
-span ul li{
+.box-list ul li{
     list-style:none;
-    display: none;
+}
+.box-list{
+    border: 1px solid silver;
+    border-radius: 10px;
+    height: 300px;
+    width: 100px;
+}
+p,ul{
+    color: silver;
+    cursor: pointer;
+    margin: 0 35px;
 }
