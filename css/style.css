@@ -38,7 +38,7 @@ span{
     border: 1px solid silver;
     border-radius: 10px;
     height: 300px;
-    width: 100px;
+    /* width: 100px; */
 }
 p,ul{
     color: silver;
