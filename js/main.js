@@ -1,5 +1,6 @@
 $(document).ready(function(){
-$('.container-right').click(function(){
+
+$('.click').click(function(){
     $(this).find('.box-list').toggle('.active')
 })
 
