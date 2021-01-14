@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* area container */
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+/* UTILITIS!!!!!!!!!!!!!!! */
+.container-flex{
+    display: flex;
+}
+/* contenitore di sinistra */
+.container-right{
+    justify-content: space-around;
+    display: flex;
+
+}
+.container-left p{
+    margin: 10px 10px;
+    display: flex;
+
+}
+span{
+    margin: 10px 10px;
+
+}
+span ul li{
+    list-style:none;
+    display: none;
+}
